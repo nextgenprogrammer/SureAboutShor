@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="JS/animate.js"></script>
     <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <!-- <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "08203d37cede45eaa8d80853989a88842fed38e8e7559ed5126954a8558f630fb1525761bfa6e934ecaa816b6f3486b9", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script> -->
 </head>
 <body>
@@ -20,12 +25,12 @@
                 </a>
             </div>
             <div class="topnav" id="myTopnav">
-                <a href="#logo" class="blank"></a>
-                <a href="#logo" class="blank"></a>
-                <a class="nav-menu" href="#MarketingCosmos">Marketing Cosmos</a>
-                <a class="nav-menu" href="#AboutUS">About Us</a>
+                <a id="blank1" href="#"></a>
+                <a id="blank2" href="#"></a>
+                <a id="blank2" href="#"></a>
+                <a id="nav-menu1" href="#MarketingCosmos">Marketing Cosmos</a>
+                <a id="nav-menu2" href="#AboutUS">About Us</a>
                 <a href="javascript:void(0);" class="icon" onclick="hamMenu()">
-                  <!-- <i class="fa fa-bars"></i> -->
                   <img id="menu-logo" src="artifacts/menu.svg" alt="">
                 </a>
             </div>
@@ -33,10 +38,13 @@
                 <img id="company-logo" src="artifacts/logo.png" alt="logo">
             </a>
         </div>
-        <!-- <video width="1000px" height="500px" autoplay loop> 
-            <source src="artifacts/space-landing-video.mp4" type="video/mp4"> 
-        </video>  -->
-        <video id="comp-l1vzp300_video" class="_3vVMz" role="presentation" crossorigin="anonymous" playsinline="" preload="auto" muted="" loop="" tabindex="-1" autoplay="" style="width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1;" src="artifacts/space-landing-video.mp4" width="100%" height="100%"></video>
+        <div id="body-conatiner" class="body-container">
+            <video id="comp-l1vzp300_video" class="_3vVMz" role="presentation" crossorigin="anonymous" playsinline="" preload="auto" muted="" loop="" tabindex="-1" autoplay="" style="width: 100%; height: 75%; object-fit: cover; opacity: 1;" src="artifacts/space-landing-video.mp4" width="100%" height="100%"></video>
+            <div class="text-box">
+                <h1 id="text-line1" style="font-weight:bold;">DON'T LET YOUR BRAND'S VOICE <br/>FALL INTO THE</h1>
+                <h1 id="text-line2" style="font-weight:bold;">VOID</h1>
+            </div>
+        </div>
     </div>
 </body>
 </html>
